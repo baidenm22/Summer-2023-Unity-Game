@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1260d6e51c9a13418763faed801b083, type: 3}
+  m_Name: bomb
+  m_EditorClassIdentifier: 
+  Enemy_Name: bomb
+  enemyType: 2
+  Basic_Damage: -10
+  Strong_Damage: 0
+  Health: 10
+  Attack_Speed: 0
+  movementSpeed: 75
+  maxSight: 5
+  rangeAttackSight: 5
+  closeAttackSight: 1
+  circleShootAttack: 0
+  straightShootAttack: 0
+  numberOfBullets: 0
+  timeBetweenFire: 0
+  angleAddRadians: 0
+  bullet: {fileID: 0}
+  tower: {fileID: 0}
+  slam: {fileID: 6131033148146905702, guid: ba7b27966da99a44c9a3e1eb46cf59b7, type: 3}
+  time:
+  - 0.1
+  - 0

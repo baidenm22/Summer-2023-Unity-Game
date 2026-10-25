@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1260d6e51c9a13418763faed801b083, type: 3}
+  m_Name: Blue Cow
+  m_EditorClassIdentifier: 
+  Enemy_Name: Blue Cow
+  enemyType: 1
+  Basic_Damage: -10
+  Strong_Damage: -20
+  Health: 30
+  Attack_Speed: 2
+  movementSpeed: 75
+  maxSight: 7.5
+  rangeAttackSight: 3
+  closeAttackSight: 0.8
+  circleShootAttack: 1
+  straightShootAttack: 1
+  numberOfBullets: 3
+  timeBetweenFire: 0.5
+  angleAddRadians: 0.75
+  bullet: {fileID: 305304518522572718, guid: 605e24675b2756248932895ad8ae3a38, type: 3}
+  tower: {fileID: 0}
+  slam: {fileID: 6131033148146905702, guid: ba7b27966da99a44c9a3e1eb46cf59b7, type: 3}
+  death: {fileID: 1308647143621238033, guid: d8816d207a59a614db4f1bc4913a1fe3, type: 3}
+  time:
+  - 2
+  - 0.25
